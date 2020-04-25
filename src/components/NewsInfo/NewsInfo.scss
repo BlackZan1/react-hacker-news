@@ -1,0 +1,38 @@
+.news-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 10px;
+
+    & > a, & > p {
+        text-decoration: none;
+        display: inline;
+        color: #a9a9a9;
+        font-size: 16px;
+        transition: all .4s ease;
+        margin-left: 10px;
+
+        &:hover {
+            color: #696969;
+        }
+    }
+}
+
+.news-item-info {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    & > p {
+        margin-top: -5px;
+
+        & > span {
+            color: #696969;
+            z-index: 9999;
+        }
+    }
+
+    & > p:last-child {
+        color: #a9a9a9;
+    }
+}

@@ -1,0 +1,33 @@
+.main-list {
+    margin-top: 40px;
+}
+
+.main-list-count {
+    width: 80%;
+    margin: 15px auto -10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+
+    & > button {
+        height: 40px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background: #fff;
+        border: 1px solid #000;
+        box-shadow: 1px 1px 5px #dcdcdc;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+        cursor: pointer;
+        transition: all .4s ease;
+        animation: fadeIn .4s ease;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            background: #000;
+            color: #fff;
+        }
+    }
+}
